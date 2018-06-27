@@ -11,7 +11,7 @@ function setup() {
   
   fill("pink");
 
-  triangle(150, 150, 300, 300, 450, 450);
+  triangle(150, 450, 300, 300, 450, 150);
 }
 
 function draw() {
