@@ -1,2 +1,2 @@
-# bootcam_kokorin
-What happens at Kokřín stays at Kokořín
+# Bootcamp Kokořín
+What happens at Kokořín stays at Kokořín
