@@ -8,6 +8,10 @@ function setup() {
   fill("red");
 
   rect(10, 10, 100, 100);
+  
+  fill("pink");
+
+  triangle(150, 150, 300, 300, 450, 450);
 }
 
 function draw() {
