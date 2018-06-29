@@ -8,24 +8,24 @@ var timespeed = 1;
 var myHugh = 0;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(1000, 1000);
   angleMode(DEGREES);
   colorMode(HSB,100);
 }
 
 function draw() { 
   time = time + timespeed;  
-  var ellipseOffset = time % 400;
+  var ellipseOffset = time % 1000;
   var myHugh = time % 100;
 
-  if (ellipseOffset > 300) {
-    background(myHugh,100,100);
+  if (ellipseOffset > 700) {
+    background(50,100,100);
   } else {
-    background(100,100,100);
+    background(myHugh,100,100);
   }
 
   if (keyIsPressed) {
-    timespeed = 50;
+    timespeed = 5;
   } else {
     timespeed = 1;
   }
@@ -34,8 +34,8 @@ function draw() {
   ///stroke("pink");
   fill("black");
 
-  ellipse(ellipseOffset, 200, clicks * 10, clicks * 10);
-  ellipse(300, 300, clicks * 10, clicks * 10);
+  ellipse(ellipseOffset, 1000, clicks * 10, clicks * 10);
+  ellipse(700, 700, clicks * 10, clicks * 10);
 }
 
 function mouseReleased() {
